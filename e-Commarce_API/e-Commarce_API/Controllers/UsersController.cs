@@ -13,7 +13,7 @@ namespace e_Commarce_API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(Policy = "RestrictedAPI")]
+    [Authorize(Policy="RestrictedAPI")]
     public class UsersController : ControllerBase
     {
         private readonly ApiContext _context;

@@ -49,7 +49,7 @@ builder.Services.AddAuthorization(options =>
         policy.RequireAuthenticatedUser();
     });
 });
-builder.Services.AddCors();
+//builder.Services.AddCors();
 //-----------------------------
 //builder.Services.AddDbContext<ApiContext>(options =>
 //{
